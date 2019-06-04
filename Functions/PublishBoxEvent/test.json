@@ -1,0 +1,90 @@
+{
+    "type": "skill_invocation",
+    "skill": {
+        "id": "1194",
+        "type": "skill",
+        "name": "Azure Box Skills Worker Demo",
+        "api_key": "d6012r6asnkro4xwuupglclayzmjs90d"
+    },
+    "token": {
+        "write": {
+            "access_token": "1!yvxqjeYPz5EBHzROjWFcrT_YXiJeuyWAOfYqDQ2II3bt8y5jiVqJbO-RApVdOXGba_AlXAbMjgFuuvQPY4gJLn41Y44hsVeSPQL1s8uLI8ISQqf629Am3VUaVsaxhhoM27fqi15als5To-9B1GVbFKlFlXbxM1ypRvLsK3MtV1ky2kcvJtke_b6qSLSXs7EDZsstuofGmAKh2zxLSDKTIl5iwsWurpUc7QaX9kQeGyapP5QTHEmV7YviDNSpNU3DcziVXu-hx91KE4Y8gUEouJG8f46YR9CgEHMqPIACfSaYPfhIrP8e09MQX3UBVV51ooeHkunFWCGghGIhyEE274dWEk6p03GXAtD0LMqW97KP596_jCP8PVSTWlpe_oyioGSGJo7GtbEI4AR_PsYHvB8b7E25F3KJeDwV2Tt9pGmWNrHAoAiseypL_zZ6-mfen7WgbKlDcHYMJwIrjjoVyLbFyIiBc9GhZtEQ_2w6tbTr",
+            "expires_in": 1544484286,
+            "restricted_to": "[{\"scope\":\"gcm\"},{\"scope\":\"item_upload\",\"object_id\":364489256636,\"object_type\":\"file\"},{\"scope\":\"manage_skill_invocations\"}]",
+            "token_type": "bearer"
+        },
+        "read": {
+            "access_token": "1!tewL1lw_6lIZQZD_FlvejbeB4FCjs1Jhvjy37Pjv-Tdph06bLqsM1hiBGM9MypjA2j_x3uBJDXQT7R20mpjfBXYBmxy06RsIxwapThq9TSvEl7QlKoEkJb7iUeJto17Gm2h6lDbu1XI5bW6J2B6DIn9IlVN_9AF-jd4VXUfAJmNRyAPHRb0JCDtDUI9nqVrmiMLTJKo-xehSjeDYUsBYwJxk_RGl3URQj8q3kRzMU2pSrdJkZzYmr9d8frBqQwl0Or6_H4H0ZJt-K3pwSz8SniEiZvp2qx8VqaxyWZ_yBxzpCNOqWY_Xs8N23dFnJB2YId7ECTGo8rSSRc5ay524QwMjIuJWfuGeLZs-01KNwwVzz_108utzU-vTliKoaxVSY63UTUxOUklTFUVzCMg0wTjvpe4-MFilSUHwLCEODYgQDHd9pp0.",
+            "expires_in": 1544484286,
+            "restricted_to": "[{\"scope\":\"gcm\"},{\"scope\":\"item_read\",\"object_id\":364489256636,\"object_type\":\"file\"}]",
+            "token_type": "bearer"
+        }
+    },
+    "status": {
+        "state": "invoked",
+        "message": "",
+        "error_code": "",
+        "additional_info": ""
+    },
+    "id": "850b3441-1687-47a4-92c6-a1f865552027_1588152364",
+    "created_at": "2018-12-09T15:24:46-08:00",
+    "trigger": "FILE_CONTENT",
+    "enterprise": {
+        "type": "enterprise",
+        "id": "120859854",
+        "name": "Enterprise for LaBrina Loving"
+    },
+    "source": {
+        "type": "file",
+        "id": "364489256636",
+        "name": "WIN_20171030_10_46_33_Pro.jpg",
+        "sequence_id": "7",
+        "file_version": {
+            "id": "385605042034"
+        },
+        "owner_enterprise_id": "120859854",
+        "parent": {
+            "id": "60397275381"
+        },
+        "old_parent_id": "",
+        "collab_accessible_by": {
+            "type": "",
+            "id": "",
+            "name": "",
+            "login": ""
+        },
+        "size": 2065802
+    },
+    "event": {
+        "event_id": "850b3441-1687-47a4-92c6-a1f865552027",
+        "event_type": "ITEM_UPLOAD",
+        "created_at": "2018-12-09T15:24:46-08:00",
+        "created_by": {
+            "type": "user",
+            "id": "3954990860",
+            "name": "LaBrina Loving",
+            "login": "lalovi@microsoft.com"
+        },
+        "source": {
+            "type": "file",
+            "id": "364489256636",
+            "name": "WIN_20171030_10_46_33_Pro.jpg",
+            "sequence_id": "7",
+            "file_version": {
+                "id": "385605042034"
+            },
+            "owner_enterprise_id": "120859854",
+            "parent": {
+                "id": "60397275381"
+            },
+            "old_parent_id": "",
+            "collab_accessible_by": {
+                "type": "",
+                "id": "",
+                "name": "",
+                "login": ""
+            }
+        }
+    },
+    "parameters": {}
+}
